@@ -36,7 +36,7 @@ Big-O gösterimini yazınız.
 
 Cevap:
 
-**Dizi:** `[16, 21, 11, 8, 12, 22]`[cite: 2]
+**Dizi:** `[16, 21, 11, 8, 12, 22]`
 
 **Merge Sort Aşamaları:**
 * **Adım 1 (Bölme):** `[16, 21, 11]` ve `[8, 12, 22]`
@@ -50,3 +50,24 @@ Cevap:
 * **Best Case:** $O(n \log n)$
 * **Average Case:** $O(n \log n)$
 * **Worst Case:** $O(n \log n)$
+
+Proje 3
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+**Dizi:** `[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]`
+
+**Binary Search Tree Aşamaları:**
+
+* **7:** Root (kök) düğümdür.
+* **5:** 7'den küçük olduğu için 7'nin solunda bulunur.
+* **1:** 7 ve 5'ten küçük olduğu için 5'in solunda bulunur.
+* **8:** 7'den büyük olduğu için 7'nin sağında bulunur.
+* **3:** 7 ve 5'ten küçük, 1'den büyük olduğu için 1'in sağında bulunur.
+* **6:** 7'den küçük, 5'ten büyük olduğu için 5'in sağında bulunur.
+* **0:** 7, 5 ve 1'den küçük olduğu için 1'in solunda bulunur.
+* **9:** 7 ve 8'den büyük olduğu için 8'in sağında bulunur.
+* **4:** 7 ve 5'ten küçük, 1 ve 3'ten büyük olduğu için 3'ün sağında bulunur.
+* **2:** 7 ve 5'ten küçük, 1'den büyük, 3'ten küçük olduğu için 3'ün solunda bulunur.
